@@ -38,8 +38,7 @@ a {
 
 .header-background {
     background: var(--bg-base);
-    background: linear-gradient(
-            302deg,
+    background: linear-gradient(302deg,
             var(--bg-gradient-a) 0%,
             var(--bg-gradient-b) 100%);
     width: 100vw;
@@ -47,6 +46,43 @@ a {
     z-index: 1;
 
 }
+
+.header-content {
+    width: 90%;
+    margin: 0 auto;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    z-index: 5;
+    margin-top: -120px;
+
+
+
+}
+
+.header-cover {
+    width: 150px;
+    height: 150px;
+    background: var(--dark);
+}
+
+.info {
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: var(--dark);
+}
+
+h3 {
+    font-size: 2em ;
+}
+
+h6 {
+    font-size: 1em;
+}
+
+
 
 /* Controls */
 
